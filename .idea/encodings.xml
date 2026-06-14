@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/fs-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-common-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-notify/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-notify/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-orm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-orm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-preview/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-preview/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-sse/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-sse/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/storage-plugin-aliyunoss/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/storage-plugin-aliyunoss/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/storage-plugin-boot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/storage-plugin-boot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/storage-plugin-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/storage-plugin-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/storage-plugin-kodo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/storage-plugin-kodo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/storage-plugin-local/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/storage-plugin-local/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/storage-plugin-minio/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/storage-plugin-minio/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/storage-plugin-obs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/storage-plugin-obs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/storage-plugin-rustfs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-storage-plugin/storage-plugin-rustfs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/fs-swagger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-framework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-modules/fs-file/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-modules/fs-file/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-modules/fs-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-modules/fs-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-modules/fs-storage/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-modules/fs-storage/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-modules/fs-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-modules/fs-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-modules/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fs-modules/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

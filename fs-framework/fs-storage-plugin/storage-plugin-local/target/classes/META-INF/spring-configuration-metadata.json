@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "name": "fs.storage.local",
+      "type": "com.xddcodec.fs.storage.plugin.local.config.LocalStorageProperties",
+      "sourceType": "com.xddcodec.fs.storage.plugin.local.config.LocalStorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "fs.storage.local.base-path",
+      "type": "java.lang.String",
+      "description": "存储基础路径",
+      "sourceType": "com.xddcodec.fs.storage.plugin.local.config.LocalStorageProperties",
+      "defaultValue": "\/data\/files"
+    },
+    {
+      "name": "fs.storage.local.base-url",
+      "type": "java.lang.String",
+      "description": "访问基础URL",
+      "sourceType": "com.xddcodec.fs.storage.plugin.local.config.LocalStorageProperties",
+      "defaultValue": "http:\/\/localhost:8080\/files"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}

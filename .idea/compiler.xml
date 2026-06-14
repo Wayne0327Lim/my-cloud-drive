@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for storage-plugin-minio" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="E:/MAVEN/repo/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
+          <entry name="E:/MAVEN/repo/com/mybatis-flex/mybatis-flex-processor/1.11.6/mybatis-flex-processor-1.11.6.jar" />
+          <entry name="E:/MAVEN/repo/com/mybatis-flex/mybatis-flex-annotation/1.11.6/mybatis-flex-annotation-1.11.6.jar" />
+          <entry name="E:/MAVEN/repo/org/mybatis/mybatis/3.5.19/mybatis-3.5.19.jar" />
+          <entry name="E:/MAVEN/repo/org/springframework/boot/spring-boot-configuration-processor/4.0.3/spring-boot-configuration-processor-4.0.3.jar" />
+          <entry name="E:/MAVEN/repo/io/github/linpeilie/mapstruct-plus-processor/1.5.0/mapstruct-plus-processor-1.5.0.jar" />
+          <entry name="E:/MAVEN/repo/io/github/linpeilie/mapstruct-plus/1.5.0/mapstruct-plus-1.5.0.jar" />
+          <entry name="E:/MAVEN/repo/org/mapstruct/mapstruct/1.6.3/mapstruct-1.6.3.jar" />
+          <entry name="E:/MAVEN/repo/io/github/linpeilie/mapstruct-plus-object-convert/1.5.0/mapstruct-plus-object-convert-1.5.0.jar" />
+          <entry name="E:/MAVEN/repo/cn/easii/tutelary-repackage-javapoet/1.0.5/tutelary-repackage-javapoet-1.0.5.jar" />
+          <entry name="E:/MAVEN/repo/org/mapstruct/mapstruct-processor/1.6.3/mapstruct-processor-1.6.3.jar" />
+          <entry name="E:/MAVEN/repo/org/mapstruct/tools/gem/gem-api/1.0.0.Alpha3/gem-api-1.0.0.Alpha3.jar" />
+          <entry name="E:/MAVEN/repo/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="storage-plugin-minio" />
+        <module name="storage-plugin-minio (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fs-admin" target="21" />
+      <module name="fs-common-core" target="21" />
+      <module name="fs-file" target="21" />
+      <module name="fs-log" target="21" />
+      <module name="fs-modules" target="21" />
+      <module name="fs-notify" target="21" />
+      <module name="fs-orm" target="21" />
+      <module name="fs-preview" target="21" />
+      <module name="fs-redis" target="21" />
+      <module name="fs-security" target="21" />
+      <module name="fs-sse" target="21" />
+      <module name="fs-storage" target="21" />
+      <module name="fs-swagger" target="21" />
+      <module name="fs-system" target="21" />
+      <module name="storage-plugin-aliyunoss" target="21" />
+      <module name="storage-plugin-boot" target="21" />
+      <module name="storage-plugin-core" target="21" />
+      <module name="storage-plugin-kodo" target="21" />
+      <module name="storage-plugin-local" target="21" />
+      <module name="storage-plugin-obs" target="21" />
+      <module name="storage-plugin-rustfs" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="fs-admin" options="-parameters" />
+      <module name="fs-common-core" options="-parameters" />
+      <module name="fs-file" options="-parameters" />
+      <module name="fs-log" options="-parameters" />
+      <module name="fs-notify" options="-parameters" />
+      <module name="fs-orm" options="-parameters" />
+      <module name="fs-preview" options="-parameters" />
+      <module name="fs-redis" options="-parameters" />
+      <module name="fs-security" options="-parameters" />
+      <module name="fs-sse" options="-parameters" />
+      <module name="fs-storage" options="-parameters" />
+      <module name="fs-swagger" options="-parameters" />
+      <module name="fs-system" options="-parameters" />
+      <module name="storage-plugin-aliyunoss" options="-parameters" />
+      <module name="storage-plugin-boot" options="-parameters" />
+      <module name="storage-plugin-core" options="-parameters" />
+      <module name="storage-plugin-kodo" options="-parameters" />
+      <module name="storage-plugin-local" options="-parameters" />
+      <module name="storage-plugin-minio" options="-parameters" />
+      <module name="storage-plugin-minio (1)" options="-parameters" />
+      <module name="storage-plugin-obs" options="-parameters" />
+      <module name="storage-plugin-rustfs" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+com.xddcodec.fs.file.domain.vo.FileShareThinVO
+com.xddcodec.fs.file.domain.vo.FileVO
+com.xddcodec.fs.file.domain.vo.FileRecycleVO
+com.xddcodec.fs.file.domain.vo.FileDetailVO
+com.xddcodec.fs.file.domain.vo.FileShareAccessRecordVO
+com.xddcodec.fs.file.domain.vo.FileTransferTaskVO
+com.xddcodec.fs.file.domain.dto.CreateFileShareAccessRecordCmd
+com.xddcodec.fs.file.domain.vo.FileShareVO

@@ -1,0 +1,26 @@
+{
+  "groups": [
+    {
+      "name": "security",
+      "type": "com.xddcodec.fs.framework.security.properties.SecurityProperties",
+      "sourceType": "com.xddcodec.fs.framework.security.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "security.excludes",
+      "type": "java.lang.String[]",
+      "description": "排除路径",
+      "sourceType": "com.xddcodec.fs.framework.security.properties.SecurityProperties"
+    },
+    {
+      "name": "security.path-pattern",
+      "type": "java.lang.String",
+      "sourceType": "com.xddcodec.fs.framework.security.properties.SecurityProperties"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}

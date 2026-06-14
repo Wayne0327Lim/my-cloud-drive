@@ -1,0 +1,10 @@
+D:\projects\free-fs\fs-admin\src\main\java\com\xddcodec\fs\aspectj\PreviewAspect.java
+D:\projects\free-fs\fs-admin\src\main\java\com\xddcodec\fs\controller\I18nTestController.java
+D:\projects\free-fs\fs-admin\src\main\java\com\xddcodec\fs\controller\OauthController.java
+D:\projects\free-fs\fs-admin\src\main\java\com\xddcodec\fs\FsAdminApplication.java
+D:\projects\free-fs\fs-admin\src\main\java\com\xddcodec\fs\i18n\I18nConfig.java
+D:\projects\free-fs\fs-admin\src\main\java\com\xddcodec\fs\interceptor\PreviewInterceptor.java
+D:\projects\free-fs\fs-admin\src\main\java\com\xddcodec\fs\interceptor\StoragePlatformInterceptor.java
+D:\projects\free-fs\fs-admin\src\main\java\com\xddcodec\fs\interceptor\WorkspaceInterceptor.java
+D:\projects\free-fs\fs-admin\src\main\java\com\xddcodec\fs\web\CorsConfig.java
+D:\projects\free-fs\fs-admin\src\main\java\com\xddcodec\fs\web\WebMvcConfig.java

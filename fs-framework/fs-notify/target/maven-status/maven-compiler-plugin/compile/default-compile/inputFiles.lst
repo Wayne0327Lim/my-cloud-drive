@@ -1,0 +1,7 @@
+D:\projects\free-fs\fs-framework\fs-notify\src\main\java\com\xddcodec\fs\framework\notify\mail\constant\MailTemplateConstant.java
+D:\projects\free-fs\fs-framework\fs-notify\src\main\java\com\xddcodec\fs\framework\notify\mail\domain\Mail.java
+D:\projects\free-fs\fs-framework\fs-notify\src\main\java\com\xddcodec\fs\framework\notify\mail\event\MailEvent.java
+D:\projects\free-fs\fs-framework\fs-notify\src\main\java\com\xddcodec\fs\framework\notify\mail\listener\MailListener.java
+D:\projects\free-fs\fs-framework\fs-notify\src\main\java\com\xddcodec\fs\framework\notify\mail\MailConfig.java
+D:\projects\free-fs\fs-framework\fs-notify\src\main\java\com\xddcodec\fs\framework\notify\mail\MailService.java
+D:\projects\free-fs\fs-framework\fs-notify\src\main\java\com\xddcodec\fs\framework\notify\mail\service\NoOpJavaMailSender.java

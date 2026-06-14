@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.xddcodec.fs</groupId>
+    <artifactId>fs-framework</artifactId>
+    <version>2.2.2</version>
+  </parent>
+  <groupId>com.xddcodec.fs</groupId>
+  <artifactId>fs-redis</artifactId>
+  <version>2.2.2</version>
+  <description>fs-redis - 缓存模块，提供redis框架支持</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.xddcodec.fs</groupId>
+      <artifactId>fs-common-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-redis</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-cache</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-pool2</artifactId>
+    </dependency>
+  </dependencies>
+</project>

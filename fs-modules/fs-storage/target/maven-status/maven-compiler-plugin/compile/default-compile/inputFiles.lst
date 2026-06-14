@@ -1,0 +1,17 @@
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\cache\StorageSettingKeyGenerator.java
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\controller\StorageController.java
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\domain\cmd\StorageSettingAddCmd.java
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\domain\cmd\StorageSettingEditCmd.java
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\domain\StoragePlatform.java
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\domain\StorageSetting.java
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\domain\vo\StorageActivePlatformsVO.java
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\domain\vo\StoragePlatformVO.java
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\domain\vo\StorageSettingUserVO.java
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\facade\StorageServiceFacade.java
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\mapper\StoragePlatformMapper.java
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\mapper\StorageSettingMapper.java
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\service\impl\StoragePlatformServiceImpl.java
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\service\impl\StorageSettingServiceImpl.java
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\service\StoragePlatformAutoRegister.java
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\service\StoragePlatformService.java
+D:\projects\free-fs\fs-modules\fs-storage\src\main\java\com\xddcodec\fs\storage\service\StorageSettingService.java

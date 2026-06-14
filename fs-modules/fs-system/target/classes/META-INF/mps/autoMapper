@@ -1,0 +1,6 @@
+com.xddcodec.fs.system.domain.vo.WorkspaceVO
+com.xddcodec.fs.system.domain.vo.LoginResult
+com.xddcodec.fs.system.domain.vo.SysRoleVO
+com.xddcodec.fs.system.domain.vo.WorkspaceInvitationVO
+com.xddcodec.fs.system.domain.vo.SysPermissionVO
+com.xddcodec.fs.system.domain.vo.SysUserVO

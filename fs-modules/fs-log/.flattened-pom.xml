@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.xddcodec.fs</groupId>
+    <artifactId>fs-modules</artifactId>
+    <version>2.2.2</version>
+  </parent>
+  <groupId>com.xddcodec.fs</groupId>
+  <artifactId>fs-log</artifactId>
+  <version>2.2.2</version>
+  <description>fs-log - 日志管理模块，负责系统的各类日志比如登录日志、操作日志等</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.xddcodec.fs</groupId>
+      <artifactId>fs-orm</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.xddcodec.fs</groupId>
+      <artifactId>fs-security</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.xddcodec.fs</groupId>
+      <artifactId>fs-swagger</artifactId>
+    </dependency>
+  </dependencies>
+</project>

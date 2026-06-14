@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.xddcodec.fs</groupId>
+    <artifactId>fs-framework</artifactId>
+    <version>2.2.2</version>
+  </parent>
+  <groupId>com.xddcodec.fs</groupId>
+  <artifactId>fs-notify</artifactId>
+  <version>2.2.2</version>
+  <description>fs-notify - 通知模块，邮件、sms、微信、钉钉等消息通知</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.xddcodec.fs</groupId>
+      <artifactId>fs-redis</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-mail</artifactId>
+    </dependency>
+  </dependencies>
+</project>

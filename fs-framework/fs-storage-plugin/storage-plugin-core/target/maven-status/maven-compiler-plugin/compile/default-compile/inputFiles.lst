@@ -1,0 +1,11 @@
+D:\projects\free-fs\fs-framework\fs-storage-plugin\storage-plugin-core\src\main\java\com\xddcodec\fs\storage\plugin\core\AbstractStorageOperationService.java
+D:\projects\free-fs\fs-framework\fs-storage-plugin\storage-plugin-core\src\main\java\com\xddcodec\fs\storage\plugin\core\annotation\StoragePlugin.java
+D:\projects\free-fs\fs-framework\fs-storage-plugin\storage-plugin-core\src\main\java\com\xddcodec\fs\storage\plugin\core\config\StorageConfig.java
+D:\projects\free-fs\fs-framework\fs-storage-plugin\storage-plugin-core\src\main\java\com\xddcodec\fs\storage\plugin\core\context\StoragePlatformContext.java
+D:\projects\free-fs\fs-framework\fs-storage-plugin\storage-plugin-core\src\main\java\com\xddcodec\fs\storage\plugin\core\context\StoragePlatformContextHolder.java
+D:\projects\free-fs\fs-framework\fs-storage-plugin\storage-plugin-core\src\main\java\com\xddcodec\fs\storage\plugin\core\dto\StoragePluginMetadata.java
+D:\projects\free-fs\fs-framework\fs-storage-plugin\storage-plugin-core\src\main\java\com\xddcodec\fs\storage\plugin\core\IStorageOperationService.java
+D:\projects\free-fs\fs-framework\fs-storage-plugin\storage-plugin-core\src\main\java\com\xddcodec\fs\storage\plugin\core\model\PluginMetadata.java
+D:\projects\free-fs\fs-framework\fs-storage-plugin\storage-plugin-core\src\main\java\com\xddcodec\fs\storage\plugin\core\s3\AbstractS3CompatibleStorageService.java
+D:\projects\free-fs\fs-framework\fs-storage-plugin\storage-plugin-core\src\main\java\com\xddcodec\fs\storage\plugin\core\s3\S3CompatibleConfig.java
+D:\projects\free-fs\fs-framework\fs-storage-plugin\storage-plugin-core\src\main\java\com\xddcodec\fs\storage\plugin\core\utils\StorageUtils.java
