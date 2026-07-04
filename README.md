@@ -4,7 +4,7 @@
 
 ### 现代化文件管理网盘系统
 
-一个基于 Spring Boot 4.x 的企业级文件管理网盘系统，支持分片上传、秒传、断点续传，采用 SPI 插件化存储架构。
+一个基于 Spring Boot 4的企业级文件管理网盘系统，支持分片上传、秒传、断点续传，采用 SPI 插件化存储架构。
 
 <img src="https://img.shields.io/badge/Spring%20Boot-4.0.3-blue.svg" alt="Spring Boot">
 <img src="https://img.shields.io/badge/Java-21-orange.svg" alt="Java 21">
@@ -15,7 +15,7 @@
 
 ---
 
-> **声明**：本项目基于 [dromara/free-fs](https://github.com/dromara/free-fs) (Apache 2.0) 学习研究与二次开发，感谢原作者 [@xddcode](https://github.com/xddcode) 的优秀作品。
+> **声明**：本项目基于 [dromara/free-fs](https://github.com/dromara/free-fs) (Apache 2.0) 学习研究与二次开发
 
 ---
 
@@ -151,8 +151,50 @@ pnpm dev
 ---
 
 ## 新增功能
+---
 
-- 待补充
+## AI File Summary
+
+This version adds a lightweight AI file summary feature for My Cloud Drive.
+
+### What it does
+
+- Adds an `AI Summary` action to files in the frontend file list and grid menus.
+- Supports generating and viewing summaries in a dedicated modal.
+- Stores generated summaries in the `file_ai_summary` table.
+- Provides backend APIs for reading cached summaries and regenerating summaries.
+- Uses an OpenAI-compatible chat completion API when configured.
+- Falls back to a local rule-based summary when no API key is configured, so the feature can still be demonstrated offline.
+
+### Supported file types in the first version
+
+Text-oriented files are supported first, including:
+
+```text
+txt, md, markdown, log, csv, json, xml, yaml, yml,
+properties, ini, conf, java, js, jsx, ts, tsx, py,
+sql, sh, bat, ps1, html, css, scss, vue
+```
+
+### Backend APIs
+
+```http
+GET  /apis/file/{fileId}/summary
+POST /apis/file/{fileId}/summary/regenerate
+```
+
+### Configuration
+
+The feature can be configured with environment variables:
+
+```bash
+FS_AI_SUMMARY_ENABLED=true
+FS_AI_SUMMARY_API_KEY=your_api_key
+FS_AI_SUMMARY_ENDPOINT=https://api.openai.com/v1/chat/completions
+FS_AI_SUMMARY_MODEL=gpt-4o-mini
+```
+
+If `FS_AI_SUMMARY_ENABLED` is `false` or no API key is provided, the system uses the local fallback summary mode.
 
 ---
 
