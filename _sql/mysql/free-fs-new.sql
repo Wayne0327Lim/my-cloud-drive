@@ -50,6 +50,31 @@ CREATE TABLE `file_info`  (
 -- ----------------------------
 
 -- ----------------------------
+-- Table structure for file_ai_summary
+-- ----------------------------
+DROP TABLE IF EXISTS `file_ai_summary`;
+CREATE TABLE `file_ai_summary` (
+  `id` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `file_id` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `workspace_id` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `user_id` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `summary` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL,
+  `key_points` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL,
+  `tags` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  `model_name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  `generated_by_ai` tinyint(1) NOT NULL DEFAULT 0,
+  `create_time` datetime NOT NULL,
+  `update_time` datetime NOT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `uk_file_id`(`file_id` ASC) USING BTREE,
+  INDEX `idx_workspace_id`(`workspace_id` ASC) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = 'AI file summary' ROW_FORMAT = DYNAMIC;
+
+-- ----------------------------
+-- Records of file_ai_summary
+-- ----------------------------
+
+-- ----------------------------
 -- Table structure for file_share_access_record
 -- ----------------------------
 DROP TABLE IF EXISTS `file_share_access_record`;

@@ -74,7 +74,7 @@ fs:
     # 缓冲区大小（字节），默认8KB
     buffer-size: 8192
     office:
-      enabled: true
+      enabled: false
       #LibreOffice 安装路径
       # Linux: /usr/lib/libreoffice
       # Windows: C:/Program Files/LibreOffice
@@ -90,6 +90,14 @@ fs:
     local:
       base-path: D:/free-fs-files
       base-url: http://localhost:8080/files
+  ai:
+    summary:
+      enabled: ${FS_AI_SUMMARY_ENABLED:false}
+      endpoint: ${FS_AI_SUMMARY_ENDPOINT:https://api.openai.com/v1/chat/completions}
+      api-key: ${FS_AI_SUMMARY_API_KEY:}
+      model: ${FS_AI_SUMMARY_MODEL:gpt-4o-mini}
+      timeout-ms: 30000
+      max-chars: 12000
 
 mybatis-flex:
   # sql审计
