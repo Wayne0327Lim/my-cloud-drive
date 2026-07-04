@@ -134,41 +134,24 @@ pnpm dev
 
 ---
 
-## 学习记录
-
-| 模块 | 内容 | 状态 |
-|------|------|------|
-| 分片上传 | init → check → chunk → merge 完整链路 | ✅ |
-| 存储插件 | SPI 接口 + 多实现 + 动态切换 | ✅ |
-| 认证登录 | Sa-Token + JWT + 登录策略 | 🟡 |
-| RBAC 权限 | 用户 → 角色 → 权限 | ⬜ |
-| 文件预览 | 十余种文件类型策略模式 | ⬜ |
-| SSE 推送 | 上传进度实时通知 | ⬜ |
-| 文件分享 | 授权码 + 有效期 | ⬜ |
-| 回收站 | 逻辑删除 + 定时清理 | ⬜ |
-| 工作空间 | 多租户数据隔离 | ⬜ |
-
----
-
 ## 新增功能
----
 
-## AI File Summary
+### AI 文件摘要
 
-This version adds a lightweight AI file summary feature for My Cloud Drive.
+本次新增了轻量级 AI 文件摘要功能，用于在云盘场景中快速理解文本类文件内容。
 
-### What it does
+#### 功能说明
 
-- Adds an `AI Summary` action to files in the frontend file list and grid menus.
-- Supports generating and viewing summaries in a dedicated modal.
-- Stores generated summaries in the `file_ai_summary` table.
-- Provides backend APIs for reading cached summaries and regenerating summaries.
-- Uses an OpenAI-compatible chat completion API when configured.
-- Falls back to a local rule-based summary when no API key is configured, so the feature can still be demonstrated offline.
+- 在前端文件列表和网格视图中新增 `AI 摘要` 操作入口。
+- 支持在弹窗中查看文件摘要、关键要点和标签。
+- 摘要结果会持久化保存到 `file_ai_summary` 表，避免重复生成。
+- 后端提供摘要查询和重新生成接口。
+- 配置大模型 API Key 后，可调用 OpenAI-compatible Chat Completion 接口生成摘要。
+- 未配置 API Key 时，会自动使用本地规则摘要兜底，方便本地演示和学习。
 
-### Supported file types in the first version
+#### 当前支持的文件类型
 
-Text-oriented files are supported first, including:
+第一版优先支持文本类文件，包括：
 
 ```text
 txt, md, markdown, log, csv, json, xml, yaml, yml,
@@ -176,25 +159,25 @@ properties, ini, conf, java, js, jsx, ts, tsx, py,
 sql, sh, bat, ps1, html, css, scss, vue
 ```
 
-### Backend APIs
+#### 后端接口
 
 ```http
 GET  /apis/file/{fileId}/summary
 POST /apis/file/{fileId}/summary/regenerate
 ```
 
-### Configuration
+#### 配置方式
 
-The feature can be configured with environment variables:
+可通过环境变量开启远程 AI 摘要：
 
 ```bash
 FS_AI_SUMMARY_ENABLED=true
-FS_AI_SUMMARY_API_KEY=your_api_key
+FS_AI_SUMMARY_API_KEY=你的 API Key
 FS_AI_SUMMARY_ENDPOINT=https://api.openai.com/v1/chat/completions
 FS_AI_SUMMARY_MODEL=gpt-4o-mini
 ```
 
-If `FS_AI_SUMMARY_ENABLED` is `false` or no API key is provided, the system uses the local fallback summary mode.
+如果 `FS_AI_SUMMARY_ENABLED` 为 `false`，或没有配置 API Key，系统会使用本地规则摘要模式。
 
 ---
 
