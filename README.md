@@ -4,7 +4,7 @@
 
 ### 现代化文件管理网盘系统
 
-一个基于 Spring Boot 4.x 的企业级文件管理网盘系统，支持分片上传、秒传、断点续传，采用 SPI 插件化存储架构。
+一个基于 Spring Boot 4的企业级文件管理网盘系统，支持分片上传、秒传、断点续传，采用 SPI 插件化存储架构。
 
 <img src="https://img.shields.io/badge/Spring%20Boot-4.0.3-blue.svg" alt="Spring Boot">
 <img src="https://img.shields.io/badge/Java-21-orange.svg" alt="Java 21">
@@ -15,7 +15,7 @@
 
 ---
 
-> **声明**：本项目基于 [dromara/free-fs](https://github.com/dromara/free-fs) (Apache 2.0) 学习研究与二次开发，感谢原作者 [@xddcode](https://github.com/xddcode) 的优秀作品。
+> **声明**：本项目基于 [dromara/free-fs](https://github.com/dromara/free-fs) (Apache 2.0) 学习研究与二次开发。
 
 ---
 
