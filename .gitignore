@@ -1,1 +1,14 @@
-LibreOffice/ 
+LibreOffice/
+
+# Build outputs
+target/
+*.class
+*.jar
+
+# IDE files
+.idea/
+*.iml
+
+# Logs and local temp files
+*.log
+*.tmp
