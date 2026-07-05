@@ -25,7 +25,7 @@ import java.sql.Types;
  * }</pre>
  * 读端直接走 {@link ResultSet#getString},驱动会按列类型反序列化为 JSON 文本。</p>
  *
- * @author xddcode
+ * @author heshuhang
  */
 @MappedTypes(String.class)
 @MappedJdbcTypes(value = JdbcType.OTHER, includeNullJdbcType = true)

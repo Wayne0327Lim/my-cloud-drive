@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 /**
  * 传输任务SSE推送服务实现
  * 
- * @author xddcodec
+ * @author heshuhang
  */
 @Slf4j
 @Service

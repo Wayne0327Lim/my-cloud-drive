@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 /**
  * 完成事件数据传输对象
  * 
- * @author xddcodec
+ * @author heshuhang
  */
 @Data
 @Builder

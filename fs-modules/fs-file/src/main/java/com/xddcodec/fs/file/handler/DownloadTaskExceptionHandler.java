@@ -21,7 +21,7 @@ import java.time.LocalDateTime;
  * 
  * 负责处理下载任务过程中的各种异常情况，包括文件不存在、权限不足、存储读取失败等
  * 
- * @author xddcode
+ * @author heshuhang
  */
 @Slf4j
 @Component

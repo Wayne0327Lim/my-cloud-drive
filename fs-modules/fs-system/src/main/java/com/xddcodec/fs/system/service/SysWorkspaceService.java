@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 工作空间表 服务层
  *
- * @author xddcode
+ * @author heshuhang
  * @date 2026/3/30 10:11
  */
 public interface SysWorkspaceService extends IService<SysWorkspace> {

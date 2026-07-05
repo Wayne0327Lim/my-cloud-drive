@@ -21,7 +21,7 @@ import static com.xddcodec.fs.file.domain.table.FileTransferTaskTableDef.FILE_TR
  * 
  * 定期清理过期的传输任务记录和缓存
  * 
- * @author xddcode
+ * @author heshuhang
  */
 @Slf4j
 @Component

@@ -9,7 +9,7 @@ import lombok.Data;
 /**
  * 下载分片查询参数
  * 
- * @author xddcode
+ * @author heshuhang
  */
 @Data
 @Schema(description = "下载分片查询参数")

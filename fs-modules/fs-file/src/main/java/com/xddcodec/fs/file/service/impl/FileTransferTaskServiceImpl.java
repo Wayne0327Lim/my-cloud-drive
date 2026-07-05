@@ -62,7 +62,7 @@ import static com.xddcodec.fs.file.domain.table.FileTransferTaskTableDef.FILE_TR
 /**
  * 文件传输任务服务实现
  *
- * @author xddcode
+ * @author heshuhang
  */
 @Slf4j
 @Service
@@ -1000,7 +1000,7 @@ public class FileTransferTaskServiceImpl extends ServiceImpl<FileTransferTaskMap
      *
      * @param cmd 初始化下载命令
      * @return 初始化结果
-     * @author xddcode
+     * @author heshuhang
      */
     @Override
     @Transactional(rollbackFor = Exception.class)
@@ -1123,7 +1123,7 @@ public class FileTransferTaskServiceImpl extends ServiceImpl<FileTransferTaskMap
      * @param taskId     任务ID
      * @param chunkIndex 分片索引
      * @return 分片数据流
-     * @author xddcode
+     * @author heshuhang
      */
     @Override
     public InputStream downloadChunk(String taskId, Integer chunkIndex) {
@@ -1206,7 +1206,7 @@ public class FileTransferTaskServiceImpl extends ServiceImpl<FileTransferTaskMap
      *
      * @param taskId     任务ID
      * @param chunkIndex 分片索引
-     * @author xddcode
+     * @author heshuhang
      */
     @Override
     public void markChunkDownloaded(String taskId, Integer chunkIndex) {
@@ -1267,7 +1267,7 @@ public class FileTransferTaskServiceImpl extends ServiceImpl<FileTransferTaskMap
      *
      * @param taskId 任务ID
      * @return 已下载分片索引集合
-     * @author xddcode
+     * @author heshuhang
      */
     @Override
     public Set<Integer> getDownloadedChunks(String taskId) {

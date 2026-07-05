@@ -6,7 +6,7 @@ import lombok.Data;
 /**
  * 初始化下载命令
  * 
- * @author xddcode
+ * @author heshuhang
  */
 @Data
 public class InitDownloadCmd {

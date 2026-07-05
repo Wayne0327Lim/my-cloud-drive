@@ -6,7 +6,7 @@ import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
  * SSE连接管理器接口
  * 负责管理用户的SSE连接和消息推送
  * 
- * @author xddcodec
+ * @author heshuhang
  */
 public interface SseConnectionManager {
     

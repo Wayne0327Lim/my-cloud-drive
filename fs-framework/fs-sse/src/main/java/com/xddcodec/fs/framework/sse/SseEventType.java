@@ -3,7 +3,7 @@ package com.xddcodec.fs.framework.sse;
 /**
  * SSE事件类型枚举
  * 
- * @author xddcodec
+ * @author heshuhang
  */
 public enum SseEventType {
     

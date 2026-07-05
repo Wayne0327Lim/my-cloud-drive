@@ -12,7 +12,7 @@ import java.util.Set;
 /**
  * 初始化下载结果
  * 
- * @author xddcode
+ * @author heshuhang
  */
 @Data
 @Builder
