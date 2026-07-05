@@ -4,7 +4,7 @@ package com.xddcodec.fs.file.service;
  * 传输任务SSE推送服务接口
  * 负责封装各类SSE事件的推送逻辑
  * 
- * @author xddcodec
+ * @author heshuhang
  */
 public interface TransferSseService {
     

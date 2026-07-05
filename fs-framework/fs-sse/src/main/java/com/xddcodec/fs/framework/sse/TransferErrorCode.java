@@ -3,7 +3,7 @@ package com.xddcodec.fs.framework.sse;
 /**
  * 传输错误代码枚举
  * 
- * @author xddcodec
+ * @author heshuhang
  */
 public enum TransferErrorCode {
     

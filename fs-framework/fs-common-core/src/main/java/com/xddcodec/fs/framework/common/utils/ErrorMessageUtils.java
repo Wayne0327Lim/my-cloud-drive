@@ -4,7 +4,7 @@ package com.xddcodec.fs.framework.common.utils;
  * 错误信息工具类
  * 用于将技术性错误信息转换为用户友好的提示
  *
- * @author xddcodec
+ * @author heshuhang
  */
 public class ErrorMessageUtils {
 

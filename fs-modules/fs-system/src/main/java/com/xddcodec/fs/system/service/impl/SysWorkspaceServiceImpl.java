@@ -34,7 +34,7 @@ import static com.xddcodec.fs.system.domain.table.SysWorkspaceTableDef.SYS_WORKS
 /**
  * 工作空间表 服务层实现
  *
- * @author xddcode
+ * @author heshuhang
  * @date 2026/3/30 10:11
  */
 @Service

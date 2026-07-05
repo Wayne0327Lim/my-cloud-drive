@@ -6,7 +6,7 @@ import lombok.Data;
 /**
  * 错误事件数据传输对象
  * 
- * @author xddcodec
+ * @author heshuhang
  */
 @Data
 @Builder

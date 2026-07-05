@@ -5,7 +5,7 @@ import lombok.Getter;
 /**
  * 下载错误代码枚举
  * 
- * @author xddcode
+ * @author heshuhang
  */
 @Getter
 public enum DownloadErrorCode {
